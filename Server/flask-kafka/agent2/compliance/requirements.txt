@@ -1,0 +1,5 @@
+kafka-python
+pymongo
+python-dotenv
+flask
+requests

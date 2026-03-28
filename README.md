@@ -4,6 +4,8 @@ This project aims to monitor the **privacy compliance of Android apps** by compa
 
 ## ⚙️ Project Architecture
 
+<img src="https://github.com/research-mobile-security/privacyassist/blob/main/project-image/figure-architecture4.png">
+
 The architecture consists of two main agents:
 
 ### Agent-1 (Smartphone)

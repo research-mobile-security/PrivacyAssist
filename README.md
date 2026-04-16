@@ -113,5 +113,9 @@ cd ..
 cd scraping
 python3 webScraper
 ```
+## 👤 Author
 
+Project guidance and system design by **Dr. Lam Nguyen**.  
+
+Implementation and source code developed by **Edoardo Di Tullio** as part of a university internship.
 

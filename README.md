@@ -2,6 +2,30 @@
 
 This project aims to monitor the **privacy compliance of Android apps** by comparing the permissions actually granted on the device with the data declared in the "Data Safety" section of the Google Play Store. It uses a **microservices architecture** based on Kafka, MongoDB, and Flask, and is designed to run in a Docker environment.
 
+## Citation
+
+If you use PrivacyAssit results, please cite the following information. Thank you.
+### Paper Link [PrivacyAssit](https://)
+```bibtex
+@inproceedings{10.1145/3765613.3811680,
+author = {Nguyen, Tran Thanh Lam and Di Tullio, Edoardo and Carminati, Barbara and Ferrari, Elena},
+title = {PrivacyAssist: A User-Centric Agent Framework for Detecting Privacy Inconsistencies in Android Apps},
+year = {2026},
+isbn = {9798400722011},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3765613.3811680},
+doi = {10.1145/3765613.3811680},
+abstract = {Mobile apps offer significant benefits, but their privacy protections often remain ineffective and confusing for users. While prior work mainly analyzes app privacy vulnerabilities, few approaches help users understand, set, and enforce their privacy preferences. This paper presents PrivacyAssist, a multi-agent LLM-based platform that detects inconsistencies between user-granted permissions and developers' declared sensitive data collection and sharing practices. Using Retrieval-Augmented Generation (RAG), PrivacyAssist provides concise explanations and real-time on-device warnings to support informed installation decisions. We evaluate PrivacyAssist with 200 users and 2,347 Android apps, finding that only 16\% of apps are fully consistent between granted permissions and declared data practices.},
+booktitle = {Proceedings of the 19th ACM Conference on Security and Privacy in Wireless and Mobile Networks},
+pages = {145–150},
+numpages = {6},
+keywords = {privacy, mobile apps, ai agents, llm, rag},
+location = {Germany},
+series = {WiSec '26}
+}
+```
+
 ## ⚙️ Project Architecture
 
 <img src="https://github.com/research-mobile-security/privacyassist/blob/main/project-image/figure-architecture4.png">

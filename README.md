@@ -5,7 +5,7 @@ This project aims to monitor the **privacy compliance of Android apps** by compa
 ## Citation
 
 If you use PrivacyAssit results, please cite the following information. Thank you.
-### Paper Link [PrivacyAssit](https://)
+### Paper Link [PrivacyAssit](https://dl.acm.org/doi/10.1145/3765613.3811680)
 ```bibtex
 @inproceedings{10.1145/3765613.3811680,
 author = {Nguyen, Tran Thanh Lam and Di Tullio, Edoardo and Carminati, Barbara and Ferrari, Elena},
